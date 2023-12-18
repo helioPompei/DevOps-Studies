@@ -1,34 +1,16 @@
-# ====================================================================
-# Visão geral do exame 
-# ====================================================================
-- 90 Minutos 
-- 65 Questões / múltipla escolha ou múltipla resposta
-- Domínio 1: Conceitos da nuvem (24% do conteúdo pontuado)
-- Domínio 2: Segurança e conformidade (30% do conteúdo pontuado)
-- Domínio 3: Tecnologia e serviços da nuvem (34% do conteúdo pontuado) 
-- Domínio 4: Cobrança, preços e suporte (12% do conteúdo pontuado)
+# What is cloud computing?
 
-# ====================================================================
-# Cloud Advantages and Benefits
-# ====================================================================
-- Velocidade de implementação 
-- Update de sistemas operacionais sem interromper o serviço
-- Custo baixo
-- Data security (segurança dos dados)
-- Scalability   (serviços e aplicações Escaláveis)
+> **Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS)**
 
-# ====================================================================
-# Types of Cloud (Basico para avançado)
-# ====================================================================
-- IaaS -> Infra (Hospedar -> SysAdmins / Você provisiona e configura a infra)
-- PaaS -> Plataform (Programar -> Developers / Sistema operacional e dependencias)
-- SaaS -> Software (Usar -> Final Users / Gmail, Office... etc, pay to use the software)
+### Deployments Models of the cloud
+- `Private Cloud` Dedicated cloud infrastructure exclusively used by a single organization.
+- `Public Cloud` Resources and services are hosted on shared infrastructure accessible over the internet. AWS itself operates as a public cloud provider.
+- `Hybrid Cloud` Combination of public and private clouds allowing data and applications to be shared between them.
 
-- Regions -> AZs -> Local zones
-
-- Public Cloud  (AWS disponibiliza ao publico)
-- Hybrid Cloud  (Parte on-premise parte AWS cloud)
-- Private Cloud (AWS aluga o hardware fisico somente para você)
+### Types of cloud
+- `IaaS (Infra as a Service)` You host and manage the infrastructure, provisioning and configuring servers, storage, and networking resources.
+- `PaaS (Plataform as a Service)` Offers an operating system and necessary dependencies for application development, allowing developers to focus on coding without managing the underlying infrastructure.
+- `SaaS (Software as a Service)` For End Users. Access ready-to-use software applications like Gmail, Office 365, etc., paying for usage without worrying about installation or infrastructure management.
 
 # ====================================================================
 # IAM (Identity and Access management)
