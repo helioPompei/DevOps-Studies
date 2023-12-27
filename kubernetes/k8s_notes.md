@@ -1,5 +1,7 @@
 # Kubernetes
 
+## 1. Core Concepts 
+
 ## 1. Networking / Service
 
 > Service is a resource that defines a logical set of Pods and a policy to access those Pods. It provides an abstract way to expose an application as a set of accessible endpoints.
