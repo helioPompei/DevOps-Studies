@@ -1,19 +1,16 @@
 # Kubernetes
 
-## 1. Core Concepts 
+## 1. Kubernetes Components 
 
-## 1. Networking / Service
+## 2. Networking / Service
 
 > Service is a resource that defines a logical set of Pods and a policy to access those Pods. It provides an abstract way to expose an application as a set of accessible endpoints.
 
-### 1.1 Types of services
+### 3. Types of services
 - `ClusterIP` Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. This is the default that is used if you don't explicitly specify a type for a Service. You can expose the Service to the public internet using an *``Ingress``* or a *``Gateway``*.
 - `NodePort` Exposes the Service on each Node's IP at a static port (the NodePort). To make the node port available, Kubernetes sets up a cluster IP address, the same as if you had requested a Service of type: ClusterIP.
 - `LoadBalancer` Exposes the Service externally using an external load balancer. Kubernetes does not directly offer a load balancing component; you must provide one, or you can integrate your Kubernetes cluster with a cloud provider.
 - ``ExternalName`` Maps the Service to the contents of the externalName field (for example, to the hostname api.foo.bar.example). The mapping configures your cluster's DNS server to return a CNAME record with that external hostname value. No proxying of any kind is set up.
-
-
-
 
 ### 2. Deployment vs. StatefulSet vs. DaemonSet 
 - `Deployment`
